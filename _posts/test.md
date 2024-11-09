@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Demo Post
+year: 2024
 url: :slug
 published: true
 ---
