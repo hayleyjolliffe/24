@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<r-cell span=4...>
+	<div id="post">
+		{{ content }}
+	</div>
+	
+	<div id="related">
+		<h2>Related</h2>
+		<ul class="posts">
+			<r-grid columns=2>
+				{% for post in site.related_posts limit:3 %}
+					<li><a href="{{ post.url }}">
+						<r-cell span=1>
+							{{ post.title }}
+						</r-cell>
+						<r-cell span=2...>
+							{{ post.year }}
+						</r-cell>
+					</a></li>
+				{% endfor %}
+			</r-grid>
+		</ul>
+	</div>
+</r-cell>

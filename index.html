@@ -1,0 +1,20 @@
+---
+layout: default
+title: Projects
+---
+
+<r-grid columns=2>
+<ul class="posts">
+	{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url }}">
+				<r-cell span=1>
+					{{ post.title }}
+				</r-cell>
+				<r-cell span=2...>
+					{{ post.year }}
+				</r-cell>
+			</a>
+		</li>
+	{% endfor %}
+</r-grid>

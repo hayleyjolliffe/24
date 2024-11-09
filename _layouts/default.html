@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ page.title }}</title>
+	<link rel="stylesheet" href="https://rsms.me/raster/raster.grid.css?v=20" type="text/css">
+</head>
+<body>
+<r-grid columns=8>
+	<r-cell span=1-3>
+		INDEX
+	</r-cell>
+	<r-cell span=4+2>
+		{{ page.title }}
+	</r-cell>
+	<r-cell span=1-2 id="crumb">
+		BREAD > CRUMB
+	</r-cell>
+	<r-cell span=4...>
+		{{ content }}
+	</r-cell>
+	<r-cell span=1-3>
+		BIG DESCRIPTION anyways just gonna yap here for a minute to test things out and see if this fits the way i want it to
+	</r-cell>
+	<r-cell span=4+2>
+		&copy;2024 aeranar
+	</r-cell>
+	<r-cell span=6+1>
+		LINK
+	</r-cell>
+	<r-cell span=7+1>
+		LINK
+	</r-cell>
+	<r-cell span=8...>
+		LINK
+	</r-cell>
+</r-grid>
+</body>
+</html>
