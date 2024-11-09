@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Demo Post
-url: /slug
+url: :slug
+published: true
 ---
 
 anyways just gonna yap here for a minute to test things out and see if this works the way i want it to
