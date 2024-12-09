@@ -1,22 +1,16 @@
----
-layout: default
-title: Projects
-override: Hayley Jolliffe | Portfolio
----
-
-<r-grid columns=2>
-<ul class="posts list-none">
-	{% for post in site.posts %}
-		<li>
-			<a href="{{ post.url }}">
-				<r-cell span=1>
-					{{ post.title }}
-				</r-cell>
-				<r-cell span=2...>
-					{{ post.year }}
-				</r-cell>
-			</a>
-		</li>
-	{% endfor %}
-</ul>
-</r-grid>
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <style>
+            #bg {
+                width:100vw !important;
+                height:100vh !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="bg">
+            <img src="/assets/bg.jpeg">
+        </div>
+    </body>
+</html>
