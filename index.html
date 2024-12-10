@@ -2,15 +2,23 @@
 <html lang="en-us">
     <head>
         <style>
-            #bg {
-                width:100vw !important;
-                height:100vh !important;
+            :root {
+                background:url('/assets/bg-test.png');
+                margin:0 !important;
+            }
+
+            #logo {
+                margin:0 !important;
+                width:100% !important;
+                max-height:100%;
+                height:auto;
+                z-index:9;
             }
         </style>
     </head>
     <body>
-        <div id="bg">
-            <img src="/assets/bg.jpeg">
+        <div id="logo">
+            <img src="/assets/logo-test.png">
         </div>
     </body>
 </html>
