@@ -1,3 +1,8 @@
+@font-face {
+    font-family:'Helvetica Neue';
+    src: url('https://test.hayleyjolliffe.co/assets/helvetica-neue-bold.woff');
+}
+
 :root {
     background-color:#040404;
     color:#FFFFFF;
@@ -14,4 +19,13 @@
 
 .right {
     text-align:right;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    color:#FFFFFF;
+    opacity:25%;
 }
