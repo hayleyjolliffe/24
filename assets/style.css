@@ -1,0 +1,14 @@
+:root {
+    background-color:#040404;
+    color:#FFFFFF;
+    font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size:16px;
+}
+
+.upper {
+    text-transform:uppercase;
+}
+
+.right {
+    text-align:right;
+}
