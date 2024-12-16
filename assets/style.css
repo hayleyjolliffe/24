@@ -30,3 +30,7 @@ a:hover {
     color:#FFFFFF;
     opacity:25%;
 }
+
+h-cell img {
+    overflow: hidden;
+}
